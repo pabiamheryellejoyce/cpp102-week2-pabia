@@ -11,7 +11,7 @@ flowchart TD
 flowchart TD
     A([Start]) --> B[/Input Number/]
     B --> C{Number > 0?}
-    C -- Yes --> D[Display "Positive"]
+    C -- Yes --> D [Display "Positive"]
     D -- No --> E{Number < 0?}
     E -- Yes --> F[Display "Negative"]
     F -- No --> G[Display "Zero"]
