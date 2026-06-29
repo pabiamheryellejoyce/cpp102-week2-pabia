@@ -9,7 +9,7 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-    A ([Start]) --> B[/Input Number/]
+    A([Start]) --> B[/Input Number/]
     B --> C{Number > 0?}
     C -- Yes --> D[Display "Positive"]
     C -- No --> E{Number < 0?}
