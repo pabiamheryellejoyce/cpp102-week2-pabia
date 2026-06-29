@@ -25,7 +25,7 @@ flowchart TD
     A([Start]) --> B[/Input Grade 1/]
     B --> C[/Input Grade 2/]
     C --> D[/Input Grade 3/]
-    D --> E[Average = (G1 + G2 + G3) / 3]
+    D --> E[Average = G1 + G2 + G3 / 3]
     E --> F[/Display Average/]
     F --> G([End])
 ```
