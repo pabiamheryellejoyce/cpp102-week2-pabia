@@ -1,0 +1,28 @@
+Algorithm: Calculate the Area of a Rectangle
+
+1. Start
+2. Input the length.
+3. Input the width.
+4. Compute Area = Length × Width.
+5. Display the area.
+6. End.
+
+Algorithm: Determine if a Number is Positive, Negative, or Zero
+
+1. Start
+2. Input a number.
+3. If the number is greater than 0, display "Positive".
+4. Else if the number is less than 0, display "Negative".
+5. Otherwise, display "Zero".
+6. End.
+
+Algorithm: Compute the Average of Three Grades
+
+1. Start
+2. Input Grade 1.
+3. Input Grade 2.
+4. Input Grade 3.
+5. Compute Average = (Grade1 + Grade2 + Grade3) ÷ 3.
+6. Display the average.
+7. End.
+

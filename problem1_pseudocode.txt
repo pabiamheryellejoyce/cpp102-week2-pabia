@@ -1,0 +1,30 @@
+BEGIN
+    INPUT Length
+    INPUT Width
+
+    Area ← Length * Width
+
+    PRINT Area
+END
+
+BEGIN
+    INPUT Number
+
+    IF Number > 0 THEN
+        PRINT "Positive"
+    ELSE IF Number < 0 THEN
+        PRINT "Negative"
+    ELSE
+        PRINT "Zero"
+    ENDIF
+END
+
+BEGIN
+    INPUT Grade1
+    INPUT Grade2
+    INPUT Grade3
+
+    Average ← (Grade1 + Grade2 + Grade3) / 3
+
+    PRINT Average
+END
