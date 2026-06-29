@@ -14,7 +14,7 @@ flowchart TD
     C -- Yes --> D[Display "Positive"]
     D -- No --> E{Number < 0?}
     E -- Yes --> F[Display "Negative"]
-    E -- No --> G[Display "Zero"]
+    F -- No --> G[Display "Zero"]
     D --> H([End])
     F --> H
     G --> H
