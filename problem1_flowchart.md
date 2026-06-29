@@ -13,8 +13,11 @@ flowchart TD
     B --> C{Number > 0?}
     C -- Yes --> D[Display "Positive"]
     C -- No --> E{Number < 0?}
-    D --> F([End])
-    E --> F 
+    E -- Yes --> F[Display "Negative"]
+    E -- No --> G[Display "Zero"]
+    D --> H([End])
+    F --> H
+    G --> H
 ```
 
 ```mermaid
