@@ -16,7 +16,8 @@ flowchart TD
     E -- Yes --> F[Display "Negative"]
     E -- No --> G[Display "Zero"]
     D --> H
-    F --> H([End])
+    F --> h
+    G --> H([End])
 ```
 
 ```mermaid
